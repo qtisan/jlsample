@@ -1,0 +1,50 @@
+---
+title : Hello, Report!
+author : Silo QIAN
+date: 14th Oct 2022
+---
+
+# Hello, Report!!!!
+
+```julia
+println("Hello, World, My Julia!")
+```
+
+## I am $LaTeX$
+
+$$
+ϵ^2 = x × x
+$$
+
+- Make markdown theme end, now we start `Julia`.
+
+## A Starter of `Julia`
+
+### Started from basic
+
+```julia
+message = "Hello, World!"
+# Comment
+#' Document Comment
+δ = 100
+γ = 50
+δ + γ
+姓名 = "张三"
+年龄 = 25
+println("name: $(姓名), age: $(年龄)")
+
+function Ϛ(x, y)
+    x*y
+end
+println(Ϛ(δ, γ))
+
+println("sys: $(Sys.WORD_SIZE) bit.")
+
+# num split
+x = 100_000
+y = 5_000
+:(2(x-1)^2 - 3(x-1) + 1)
+
+```
+
+
