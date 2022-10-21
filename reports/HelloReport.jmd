@@ -47,4 +47,11 @@ y = 5_000
 
 ```
 
+```julia
+using GLMakie
 
+x = 0:0.1:10
+y = e^(-t/3)+1
+
+lines(x, y)
+```

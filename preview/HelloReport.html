@@ -1513,12 +1513,29 @@ sys: 64 bit.
 
 
 
+<pre class='hljl'>
+<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GLMakie</span><span class='hljl-t'>
+
+</span><span class='hljl-n'>x</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-ni'>0</span><span class='hljl-oB'>:</span><span class='hljl-nfB'>0.1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>10</span><span class='hljl-t'>
+</span><span class='hljl-n'>y</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>e</span><span class='hljl-oB'>^</span><span class='hljl-p'>(</span><span class='hljl-oB'>-</span><span class='hljl-n'>t</span><span class='hljl-oB'>/</span><span class='hljl-ni'>3</span><span class='hljl-p'>)</span><span class='hljl-oB'>+</span><span class='hljl-ni'>1</span><span class='hljl-t'>
+
+</span><span class='hljl-nf'>lines</span><span class='hljl-p'>(</span><span class='hljl-n'>x</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>y</span><span class='hljl-p'>)</span>
+</pre>
+
+
+<pre class="julia-error">
+ERROR: ArgumentError: Package GLMakie not found in current path.
+- Run &#96;import Pkg; Pkg.add&#40;&quot;GLMakie&quot;&#41;&#96; to install the GLMakie package.
+</pre>
+
+
+
         <div style="padding: 10px;"></div>
         <HR/>
         <div class="footer">
           <p>
             Published from <a href="HelloReport.jmd">HelloReport.jmd</a>
-            using <a href="http://github.com/JunoLab/Weave.jl">Weave.jl</a> v0.10.10 on 2022-10-14.
+            using <a href="http://github.com/JunoLab/Weave.jl">Weave.jl</a> v0.10.10 on 2022-10-21.
           </p>
         </div>
       </div>
