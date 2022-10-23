@@ -1,6 +1,6 @@
 
-module Sample
+using .Mermaids
 
-    great = "Hello, Sample!"
-
-end
+Mermaid("""
+123
+""")
